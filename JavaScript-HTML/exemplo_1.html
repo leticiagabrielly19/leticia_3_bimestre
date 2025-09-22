@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Java Script - Exemplo 1</title>
+</head>
+<body>
+    <h2>O que o JavaScript pode fazer?</h2>
+
+    <p>JavaScript pode mudar valores de atributo do HTML.</p>
+
+    <p>Neste caso, o JavaScript o valor do atributo "src" (source) de uma imagem.</p>
+
+    <button onclick='document.getElementById("myImage").src="./images/lampada_acesa.png"'>Ligar a lâmpada</button>
+
+    <img id="myImage" src="./images/lampada_apagada.png" style="width:100px">
+
+    <button onclick="document.getElementById('myImage').src='./images/lampada_apagada.png'">Apagar a lâmpada</button>
+
+</body>
+</html>

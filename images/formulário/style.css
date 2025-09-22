@@ -1,0 +1,155 @@
+.container_main{
+
+  display:flex;
+  
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  align-content: center;
+  row-gap: 18px;
+  column-gap: 30px; 
+    background-color: lightseagreen;
+  padding: 16px;
+  height: auto;
+}
+.col-75{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  align-content: center;
+  row-gap: 18px;
+  column-gap: 30px;
+  padding: 16px;
+  height: auto;
+  background-color: darkcyan;
+}
+.container_main-billing{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  align-content: center;
+  row-gap: 18px;
+  column-gap: 30px;
+  padding: 16px;
+  height: auto;
+  background-color: lightblue;
+
+}
+.col-50 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  align-content: center;
+  row-gap: 18px;
+  column-gap: 30px;
+  padding: 16px;
+  height: auto;
+  background-color: lightcyan;
+}
+.bloco-1 {
+  background-color: aquamarine;
+  padding: 15px;
+  width: 50px;
+  flex-grow: 0;
+  flex-shrink: 1;
+}
+
+.bloco-1 img {
+  max-width: 100%;
+}
+
+.bloco-2 {
+  background-color: rgb(255, 214, 127);
+  padding: 15px;
+  width: 50px;
+  flex-grow: 0;
+  flex-shrink: 1;
+}
+
+.bloco-3 {
+  background-color: rgb(197, 127, 255);
+  padding: 15px;
+  width: 50px;
+  flex-grow: 0;
+  flex-shrink: 1;
+}
+.bloco-4 {
+  background-color: rgb(127, 146, 255);
+  padding: 15px;
+  width: 50px;
+  flex-grow: 0;
+  flex-shrink: 1;
+}
+.bloco-5 {
+  background-color: rgb(129, 127, 255);
+  padding: 15px;
+  width: 50px;
+}
+.bloco-6 {
+  background-color: lightseagreen;
+  padding: 15px;
+  width: 50px;
+}
+.bloco-7 {
+  background-color: cornflowerblue;
+  padding: 15px;
+  width: 50px;
+}
+.bloco-8 {
+  background-color: rgb(169, 74, 247);
+  padding: 15px;
+  width: 50px;
+}
+.bloco-9 {
+  background-color: cadetblue;
+  padding: 15px;
+  width: 50px;
+}
+.bloco-10 {
+  background-color: aqua;
+  padding: 15px;
+  width: 50px;
+}
+.bloco-11 {
+    background-color: darkcyan;
+  padding: 15px;
+  width: 50px;
+}
+.bloco-12 {
+  background-color: rgb(166, 230, 183);
+  padding: 15px;
+  width: 50px;
+}
+.bloco-13 {
+  background-color: rgb(21, 183, 204);
+  padding: 15px;
+  width: 50px;
+}
+.bloco-14 {
+  background-color: rgb(29, 202, 13);
+  padding: 15px;
+  width: 50px;
+}
+.bloco-15 {
+  background-color: rgb(212, 192, 233);
+  padding: 15px;
+  width: 50px;
+}
+.bloco-1, .bloco-2, .bloco-3, .bloco-4,
+.bloco-5, .bloco-6, .bloco-7, .bloco-8,
+.bloco-9, .bloco-10, .bloco-11, .bloco-12,
+.bloco-13, .bloco-14, .bloco-15 {
+  height: 50px;
+  width: 50px;
+  text-align: center;
+  font-size: 40px;
+  font-family: 'Courier New', Courier, monospace;
+  border-radius: 16px;
+}

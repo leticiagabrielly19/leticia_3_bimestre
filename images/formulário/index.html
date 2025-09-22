@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<body>
+  
+   <main class="container_main">
+  <div class="col-75">
+    <form action="#">
+      <div class="container_main">
+      
+     
+    <div class="container_main-billing">
+      <h3>Dados do cliente</h3>
+        <div class="col-50 col_background">
+          
+          <label for="fullName">Nome completo</label>
+          <input type="text" name="fname" id="fullName" placeholder="Seu nome completo" required>
+          <label for="email">E-mail</label>
+          <input type="email" name="email" id="email" placeholder="Seu e-mail" required>
+          <label for="address">Endereço</label>
+          <input type="text" name="address" id="address" placeholder="Seu endereço" required>
+          <label for="city">Cidade</label>
+          <input type="text" name="city" id="city" placeholder="Sua cidade" required>
+          
+            <div class="col-50">
+              <label for="state">Estado</label>
+              <input type="text" name="state" id="state" placeholder="Seu estado" required>
+            </div>
+            <div class="col-50">
+              <label for="zip">CEP</label>
+              <input type="text" name="zip" id="zip" placeholder="Seu CEP" required>
+            </div>
+          </div>
+        </div>
+          
+ 
+          
+            <div class="container_main-billing">
+            <h3> Pagamento </h3>
+          
+              
+        <div class="col-50">
+         
+          <label for="cardName">Nome no cartão</label>
+          <input type="text" name="cardName" id="cardName" placeholder="Nome no cartão" required>
+          <label for="cardNumber">Número do cartão</label>
+          <input type="text" name="cardNumber" id="cardNumber" placeholder="Número do cartão" required>
+        
+            
+            <label for="expMonth">Mês de expiração</label>
+           <input type="text" name="expMonth" id="expMonth" placeholder="Mês de expiração" required>
+          </div>
+          <div class="col-50">
+            <label for="expYear">Ano de expiração</label>
+            <input type="text" name="expYear" id="expYear" placeholder="Ano de expiração" required>
+          </div>
+          <div class="col-50">
+            <label for="cvv">CVV</label>
+            <input type="text" name="cvv" id="cvv" placeholder="CVV do cartão" required>
+          </div>
+        </div>
+        <label for="sameAddress">
+          <input type="checkbox" name="sameAddress" id="sameAddress" checked>
+          Endereço de envio é o mesmo da conta
+        </label>
+      </div>
+        <input type="submit" value="Continuar" class="btn">
+          
+      </div>
+     
+     </div>
+    
+   </form>
+ </div>
+   </div>
+  </div>
+</main>
+
+
+</body>
+</html>
